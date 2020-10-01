@@ -1,0 +1,359 @@
+                    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+                    
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td,
+                    article,
+                    aside,
+                    canvas,
+                    details,
+                    embed,
+                    figure,
+                    figcaption,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    output,
+                    ruby,
+                    section,
+                    summary,
+                    time,
+                    mark,
+                    audio,
+                    video {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        font-size: 100%;
+                        font: inherit;
+                        vertical-align: baseline;
+                    }
+                    /* HTML5 display-role reset for older browsers */
+                    
+                    article,
+                    aside,
+                    details,
+                    figcaption,
+                    figure,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    section {
+                        display: block;
+                    }
+                    
+                    body {
+                        line-height: 1;
+                    }
+                    
+                    ol,
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    blockquote,
+                    q {
+                        quotes: none;
+                    }
+                    
+                    blockquote:before,
+                    blockquote:after,
+                    q:before,
+                    q:after {
+                        content: '';
+                        content: none;
+                    }
+                    
+                    table {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                    }
+                    
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    body {
+                        font-family: 'Roboto Mono', monospace;
+                    }
+                    
+                    .photoSection img {
+                        width: 15%;
+                        height: 20%;
+                        border-radius: 200px;
+                        margin-left: 11rem;
+                        display: inline-block;
+                        position: relative;
+                        margin-top: 40px;
+                        float: left;
+                    }
+                    
+                    .button1 {
+                        background-color: #FF764E;
+                    }
+                    
+                    .button2 {
+                        background-color: #5ED3EB;
+                        /* background-colo
+    r: cadetblue;
+    display: inline-block;
+    border-radius: .7rem;
+    margin-left: 10rem; */
+                    }
+                    
+                    .button3 {
+                        background-color: #FFCD69;
+                        /* background-color: red;
+    display: inline-block;
+    border-radius: .7rem;
+    margin-left: 60rem;
+    padding: 10px;
+    width: 7rem;
+    position: relative; */
+                    }
+                    
+                    .button1,
+                    .button2,
+                    .button3 {
+                        position: relative;
+                        display: inline-block;
+                        margin-left: 225px;
+                        border-radius: 20px;
+                        padding: 10px;
+                        width: 14rem;
+                        margin-top: 1.5rem;
+                    }
+                    
+                    .main-header {
+                        font-size: 2.9rem;
+                        font-weight: bold;
+                        display: inline-block;
+                        position: relative;
+                        padding-bottom: 40px;
+                    }
+                    
+                    .photoSection {
+                        display: inline-block;
+                        position: relative;
+                        vertical-align: baseline;
+                    }
+                    /* nav {
+    text-align: left;
+} */
+                    
+                    .photoSection h1 {
+                        font-family: 'Chelsea Market', cursive;
+                        margin-left: 00px;
+                        display: inline-block;
+                        margin-top: 60px;
+                        margin-left: 200px;
+                        font-size: 70px;
+                        /* margin-left: 600px;
+                        bottom: -20px;
+                        background-color: green;
+                        margin-top: 60px;
+                        font-size: 3.5rem;
+                        width: 100%;
+                        float: center;
+                        height: 40px;
+                        position: relative; */
+                    }
+                    
+                    .photoSection p {
+                        margin-left: 640px;
+                        font-size: 1.4rem;
+                        float: center;
+                        width: 29rem;
+                        margin-top: 2rem;
+                        text-align-last: center;
+                    }
+                    
+                    .pinkSection {
+                        background-color: #DDB9A3;
+                        color: white;
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 50px;
+                        padding: 15px 20px;
+                        line-height: 1.5;
+                        text-align-last: center;
+                    }
+                    /* favSection img {
+                        display: inline;
+                        position: absolute;
+                        align: center;
+                    }. */
+                    
+                    .pinkSection img {
+                        text-align: center;
+                        display: inline-block;
+                        background-color: orange;
+                        position: absolute;
+                    }
+                    
+                    .campfireSection p {
+                        display: inline-block;
+                        position: relative;
+                        margin-left: 620px;
+                        margin-top: 10px;
+                    }
+                    
+                    .campfireSection img:first-child {
+                        display: inline-block;
+                        margin-left: 650px;
+                        position: relative;
+                        width: 150px;
+                    }
+                    
+                    .campfireSection p:first-child {
+                        background-color: purple;
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .rvSection p {
+                        display: inline-block;
+                        position: static;
+                        margin-top: 350px;
+                        text-align: center;
+                        vertical-align: baseline;
+                        margin-right: 300px;
+                    }
+                    
+                    .rvSection img {
+                        margin-left: 39rem;
+                        display: inline-block;
+                        position: absolute;
+                        width: 200px;
+                    }
+                    /* .lastContainer {
+                        border: 20px solid green;
+                    }
+                     */
+                    /* .rvSection {
+                        border: 1px solid black;
+                    } */
+                    /* .example1 {
+                        border: 20px solid red;
+                    } */
+                    /* .example2 {
+                        border: 10px solid orange;
+                    } */
+                    
+                    .example2 p {
+                        margin-left: 600px;
+                        position: relative;
+                        display: inline-block;
+                        bottom: 150px;
+                    }
+                    
+                    footer img {
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 15rem;
+                        width: 100%;
+                    }
+                    
+                    .lastButtons {
+                        height: 2rem;
+                        display: inline-block;
+                        position: relative;
+                    }
+                    
+                    footer {
+                        background-color: #F9E7DC;
+                    }
+                    
+                    .button4 {
+                        background-color: #FF764E;
+                    }
+                    
+                    .button5 {
+                        background-color: #5ED3EB;
+                    }
+                    
+                    .button6 {
+                        background-color: #FFCD69;
+                    }
+                    
+                    .button4,
+                    .button5,
+                    .button6 {
+                        position: relative;
+                        display: inline-block;
+                        margin-left: 225px;
+                        border-radius: 20px;
+                        padding: 10px;
+                        width: 14rem;
+                        top: 30px;
+                    }
+                    
+                    footer section {
+                        height: 150px;
+                    }
